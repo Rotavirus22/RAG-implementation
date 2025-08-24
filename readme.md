@@ -14,7 +14,7 @@ It uses:
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/rag-pdf-qa.git
+   https://github.com/Rotavirus22/RAG-implementation.git
    cd rag-pdf-qa
 
    ```
