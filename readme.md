@@ -15,7 +15,7 @@ It uses:
 
    ```bash
    https://github.com/Rotavirus22/RAG-implementation.git
-   cd rag-pdf-qa
+   cd RAG-implementation
 
    ```
 
