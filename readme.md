@@ -35,11 +35,12 @@ It uses:
 
 1. **Building the vector index**
    python build_index.py
+   
    ![Output Screenshot1](images/index1.png)
    ![Output Screenshot2](images/index2.png)
    ![Output Screenshot3](images/index3.png)
 
-2. **Building the query**
+3. **Building the query**
    python query.py
    
    ![Output Screenshot4](images/query1.png)
@@ -47,5 +48,6 @@ It uses:
 
 4. **Evaluating**
    python evaluate.py
+   
    ![Output Screenshot6](images/eval1.png)
    ![Output Screenshot7](images/eval2.png)
