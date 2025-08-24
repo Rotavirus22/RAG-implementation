@@ -7,7 +7,6 @@ import os
 CHROMA_PATH = os.path.join("data", "chroma_db")
 
 def ask_question(query: str):
-    # Reload Chroma
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectordb = Chroma(
         embedding_function=embeddings,
@@ -16,7 +15,6 @@ def ask_question(query: str):
 
     retriever = vectordb.as_retriever(search_kwargs={"k": 5})
 
-    # ✅ Free local LLM (Mistral via Ollama)
     llm = ChatOllama(model="mistral")
 
     qa_chain = RetrievalQA.from_chain_type(
