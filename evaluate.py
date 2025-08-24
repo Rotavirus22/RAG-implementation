@@ -37,7 +37,7 @@ def evaluate():
 
         print(f"Q: {q}\nGold: {gold}\nPred: {result}\n")
 
-    print(f"✅ Coverage: {correct}/{len(df)}")
+    print(f" Coverage: {correct}/{len(df)}")
 
 if __name__ == "__main__":
     evaluate()
