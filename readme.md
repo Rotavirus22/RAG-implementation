@@ -41,10 +41,11 @@ It uses:
 
 2. **Building the query**
    python query.py
+   
    ![Output Screenshot4](images/query1.png)
    ![Output Screenshot5](images/query2.png)
 
-3. **Evaluating**
+4. **Evaluating**
    python evaluate.py
    ![Output Screenshot6](images/eval1.png)
    ![Output Screenshot7](images/eval2.png)
